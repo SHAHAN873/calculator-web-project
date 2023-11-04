@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #006674;
+}
+
+.calcBody {
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main_con {
+  border-style: solid;
+  border-color: black;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  min-height: 80px;
+  background-color: #f3503f;
+  border-radius: 20px;
+}
+
+.cal_display {
+  margin-top: -60px;
+  padding-bottom: 60px;
+  height: 40px;
+}
+
+.cal_display h1 {
+  margin-bottom: 5px;
+  margin-left: 10px;
+  font-family: "Oswald", sans-serif;
+}
+
+.cal_display .display {
+  height: 30px;
+  width: 250px;
+  padding: 18px;
+  border-radius: 20px;
+  border: none;
+  -webkit-box-shadow: 5px 5px 5px;
+          box-shadow: 5px 5px 5px;
+}
+
+.btn_body {
+  margin-top: 40px;
+}
+
+.btn_top button {
+  padding: 5px;
+  width: 60px;
+  margin-bottom: 20px;
+  font-family: "Oswald", sans-serif;
+}
+
+.btn_2nd img {
+  width: 15px;
+}
+
+.btn_2nd button {
+  padding: 5px;
+  width: 60px;
+  margin-bottom: 20px;
+  font-family: "Oswald", sans-serif;
+}
+
+.btn_3rd img {
+  width: 15px;
+}
+
+.btn_3rd button {
+  padding: 5px;
+  width: 60px;
+  margin-bottom: 20px;
+  font-family: "Oswald", sans-serif;
+}
+
+.btn_4th img {
+  width: 20px;
+}
+
+.btn_4th button {
+  padding: 5px;
+  width: 60px;
+  margin-bottom: 20px;
+  font-family: "Oswald", sans-serif;
+}
+
+.btn_4th .division {
+  width: 15px;
+}
+
+.btn_last {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.btn_last img {
+  width: 10px;
+}
+
+.btn_last button {
+  padding: 5px;
+  width: 100px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+  font-family: "Oswald", sans-serif;
+}
+
+button {
+  background-color: grey;
+  border-radius: 15px;
+  border: none;
+  -webkit-box-shadow: 5px 5px 5px;
+          box-shadow: 5px 5px 5px;
+}
+
+button:active {
+  -webkit-box-shadow: 8px 8px 8px;
+          box-shadow: 8px 8px 8px;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+}
+/*# sourceMappingURL=calc.css.map */
